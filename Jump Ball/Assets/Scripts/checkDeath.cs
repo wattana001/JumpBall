@@ -18,5 +18,9 @@ public class checkDeath : MonoBehaviour {
              GameManager.Instance.TriggerScore();
              print("TriggerScore");
          }
+         if(_col.gameObject.tag == "Ground" ){
+             GameManager.Instance.ResetTapBall();
+             print("On Ground");
+         }
     }
 }

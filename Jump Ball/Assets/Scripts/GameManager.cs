@@ -61,6 +61,9 @@ public class GameManager : MonoBehaviour {
     }
     public void TriggerScore(){
         score += blockScore;
+        
+    }
+    public void ResetTapBall(){
         tapBall = tempTapBall;
     }
     void Update() {
